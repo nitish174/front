@@ -15,7 +15,19 @@ a:hover{
 	text-decoration:none;
 }
 
-h1,h2,h3,h4,h5{
+h1{
+	font-weight:bold;
+}
+h2{
+	font-weight:bold;
+}
+h3{
+	font-weight:bold;
+}
+h4{
+	font-weight:bold;
+}
+h5{
 	font-weight:bold;
 }
 li{
@@ -55,6 +67,7 @@ i{
 	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('../images/header-bg.jpeg');
 	background-repeat: no-repeat;
 	background-size:100% 100%;
+	clip-path:polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
 	position: relative;
 }
 
@@ -213,7 +226,7 @@ i{
 .progress{
 	height:0.6rem!important;
 	margin-bottom:25px!important;
-
+    background:#606060;
 
 }
 
@@ -404,7 +417,7 @@ color:#606060;
 }
 .box h1{
 	font-size:18px;
-	font-size:700;
+	font-weight:700px;
 	color:#000;
 	margin-bottom:10px;
 
@@ -466,6 +479,10 @@ form:hover .form-button button{
 	font-size:0.85rem;
 }
 
+/**************************************contact us ends**********/
+
+/**************************************newsletter starts**********/
+
 .newsletter{
 	width:100%;
 	height:auto;
@@ -486,7 +503,7 @@ form:hover .form-button button{
 	min-height:40px;
 
 }
-/**************************************contact us ends**********/
+/**************************************Newsletter ends**********/
 
 /**************************************footer starts**********/
 
